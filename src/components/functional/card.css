@@ -1,0 +1,97 @@
+.main-container{
+    width: 306px;
+    height: 261px;
+}
+
+.image-container{
+    height: 229px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.card-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.name {
+    font-size: 14px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    margin-left: 8px;
+}
+
+.chip{
+    display: flex;
+    align-items: center;
+    height: 14px;
+    width: 35px;
+    background-color: #ccc;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-left: 8px;
+    color: #fff;
+    cursor: pointer;
+    padding: 3px 2px;
+}
+
+.chip:hover {
+    background-color: #0d0c22;
+}
+
+.like-btn{
+    width: 16px;
+    height: 15px;
+    margin-right: 4px;
+    color: #9e9ea7;
+    fill: #9e9ea7;
+    cursor: pointer;
+}
+
+.like-btn:hover {
+    color: #ea64d9;
+    fill: #ea64d9;;
+}
+
+.like-count{
+    color: #3d3d4e;
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.view-btn{
+    color: #9e9ea7;
+    margin-right: 4px;
+}
+
+.view-count{
+    color: #3d3d4e;
+    font-size: 14px;
+}
